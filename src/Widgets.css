@@ -1,0 +1,42 @@
+.widgetsClass{
+  flex:0.25;
+}
+
+.headingName{
+  text-align: center;
+  border-bottom: 1px;
+}
+
+.widgets__input{
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.searchbar{
+  background-color: var(--twitter-background);
+  border: none;
+}
+
+.widgets_searchicon {
+  color: gray;
+}
+
+.widgets_widgetholder {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #f5f8fa;
+  border-radius: 20px;
+}
+
+.widgets_widgetholder > h2 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
